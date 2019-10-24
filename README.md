@@ -1,5 +1,7 @@
 # Livewire-pagination
 
+This project was made after I came across [a post on Reddit](https://www.reddit.com/r/laravel/comments/dmemku/multiple_pagination_links_on_one_page/). The author had difficulties with paginating multiple Models on the same page and I thought the best solution would be by using Livewire instead of writing a lot of custom PHP code. 
+
 ## The problem
 
 Laravel out-of-the-box can only handle one pagination parameter. So if you have multiple models that have to be paginated, they will all use that same parameter.
