@@ -14,8 +14,14 @@
 </head>
 <body>
 	<div class="container mt-4">
-		@livewire('show-posts')
-		@livewire('show-comments')
+		<div class="row">
+			<div class="col-6">
+				@livewire('show-posts')
+			</div>
+			<div class="col-6">
+				@livewire('show-comments')
+			</div>
+		</div>
 	</div>
 </body>
 </html>

@@ -13,7 +13,7 @@ class ShowPosts extends Component
     public function render()
     {
         return view('livewire.show-posts', [
-            'posts' => Post::paginate(10)
+            'posts' => Post::paginate(5)
         ]);
     }
 }

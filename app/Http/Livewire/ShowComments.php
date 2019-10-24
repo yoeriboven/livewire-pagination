@@ -13,7 +13,7 @@ class ShowComments extends Component
     public function render()
     {
         return view('livewire.show-comments', [
-            'comments' => Comment::paginate(10)
+            'comments' => Comment::paginate(5)
         ]);
     }
 }
